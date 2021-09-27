@@ -1,0 +1,33 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TELA DE LOGIN</title>
+  <link rel="stylesheet" href="Style.css" />
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+  <!--FONTS-->
+</head>
+
+<body>
+  <div class="container"> <!--Alterei o local do form com uma div-->
+    <img id="a" src="https://cdn-icons-png.flaticon.com/512/17/17004.png" alt="icone de login">
+    <h1 style="color: white;">LOGIN</h1>
+    <form onsubmit="login()">
+      <fieldset class="campo"> <!-- Adicionei uma nova tag fieldset-->
+        <img class="incon" src="https://i0.wp.com/multarte.com.br/wp-content/uploads/2020/05/email5.png?fit=696%2C696&ssl=1" alt="">
+        <input id="email" type="email" placeholder="E-mail">
+      </fieldset>
+      <fieldset class="campo">
+        <img class="incon" src="https://cdn-icons-png.flaticon.com/512/102/102643.png" alt="">
+        <input id="senha" type="password" placeholder="Password">
+      </fieldset>
+      <h5 id="recuperar">Esqueceu a senha?</h5>
+      <button type="submit">Sign in</button>
+      <h4 id="criar">Criar conta</h4>
+    </form>
+  </div>
+  <script src="Index.js"></script>
+</body>
